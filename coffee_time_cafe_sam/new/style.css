@@ -1,0 +1,140 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f6f6f6;
+color:#222;
+}
+
+/* NAVBAR */
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#1e1e2f;
+position:sticky;
+top:0;
+}
+
+.logo{
+color:#fff;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+transition:.3s;
+}
+
+.navbar a:hover{
+color:#ffb703;
+}
+
+/* ABOUT SECTION */
+.about{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:60px 20px;
+gap: 40px;
+}
+
+.about-text{
+max-width:500px;
+}
+
+.about-text h2{
+margin-bottom:20px;
+}
+
+.about-text button{
+margin-top:20px;
+padding:12px 20px;
+border:none;
+background:#ffb703;
+cursor:pointer;
+}
+
+.about-image img{
+
+width:400px;
+border-radius:15px;
+}
+
+/* FEATURED */
+.featured{
+text-align:center;
+padding:60px 20px;
+background:white;
+}
+
+.card-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.food-card{
+background:#fff;
+padding:20px;
+width:260px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:.3s;
+}
+
+.food-card img{
+width:100%;
+border-radius:10px;
+margin:10px 0;
+}
+
+.food-card:hover{
+transform:translateY(-8px);
+}
+
+/* CARD COLORS */
+.highlight{
+border-top:5px solid #ffb703;
+}
+
+.bestseller{
+border-top:5px solid #fb8500;
+}
+
+.new{
+border-top:5px solid #219ebc;
+}
+
+.stars{
+color:gold;
+font-size:20px;
+}
+
+/* FOOTER */
+footer{
+background:#1e1e2f;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.socials a{
+color:#ffb703;
+margin:0 10px;
+text-decoration:none;
+}

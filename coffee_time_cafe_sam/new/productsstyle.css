@@ -1,0 +1,120 @@
+/* =========================
+   PRODUCTS PAGE STYLING
+========================= */
+
+/* Page Title */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f6f6f6;
+  color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #1e1e2f;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffb703;
+}
+
+
+
+
+.page-title{
+    text-align:center;
+    margin-top:40px;
+    font-size:32px;
+    color:#1e1e2f;
+}
+
+/* Menu Grid Layout */
+.menu-grid{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:40px;
+}
+
+/* Product Card */
+.menu-card{
+    width:260px;
+    background:#ffffff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 6px 18px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s ease;
+}
+
+/* Hover Animation */
+.menu-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Product Image */
+.menu-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+/* Product Name */
+.menu-card h3{
+    margin:15px 0 5px;
+    color:#222;
+}
+
+/* Description */
+.menu-card p{
+    font-size:14px;
+    padding:0 15px;
+    color:#555;
+}
+
+/* Star Ratings */
+.stars{
+    color:gold;
+    font-size:20px;
+    margin:10px 0 15px;
+}
+
+/* Optional Price Style (future use) */
+.price{
+    font-weight:bold;
+    color:#ffb703;
+    margin-bottom:15px;
+}
